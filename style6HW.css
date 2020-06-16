@@ -1,15 +1,20 @@
 @font-face {
     font-family: "ProximaNovaRegular";
       src: url("fonts/ProximaNovaRegular.ttf");
-      font-weight: normal;
-      font-style: normal;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase;
+      letter-spacing: 0.35px;
 }
 
 @font-face {
     font-family: "ProximaNovaLight";
           src: url("fonts/ProximaNovaLight.otf");
-          font-weight: normal;
-          font-style: normal;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 20px;
+          letter-spacing: 0.35px;
 }
 
 .services{
@@ -35,7 +40,6 @@
 
 .service-icon {
     position:relative
-    display: block;
 }
   
 .service-title {
