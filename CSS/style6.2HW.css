@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Trebuchet MS";
+      src: url("fonts/TrebuchetMS.ttf");
+}
+
+*{
+    transition: all .1s ease-in;
+}
+
+body {
+
+    background-color:#3b3f45 ;
+    margin: 0;
+    overflow:hidden;
+    width: auto;
+    border: 20px solid white;
+}
+
+header{
+    color: #eb7e7f;
+    text-align: center;
+    background-color: #4a4f56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+
+}
+table td {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 800px;
+    padding-left: 40px;
+    height: 50px; 
+    vertical-align: center;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+table td:hover {
+    background-color: #625e77;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    
+}
+input:checked + label {
+    text-decoration: line-through;
+    opacity: 0.3;
+   }
+.cell1 {
+    background-color: #88839e;
+}
+.cell2 {
+    background-color: #7a7593;
+}
+
+
+h2{
+    background-color: #4A4F56;
+    width: 800px;
+    height: 50px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #EB7E7F;
+    text-align: center;
+}
+input:checked + label {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
+.cell1:active {
+    background-color: rgb(212, 64, 38);
+}
+.cell2:active {
+    background-color: rgb(212, 64, 38);
+}
